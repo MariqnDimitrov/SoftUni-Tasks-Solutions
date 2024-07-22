@@ -1,0 +1,29 @@
+total_sum = float(input())
+total_sum_cents = total_sum * 100
+cent_count = 0
+while total_sum_cents > 0:
+    if total_sum_cents >= 200:
+        total_sum_cents = round(total_sum_cents - 200)
+        cent_count += 1
+    elif total_sum_cents >= 100:
+        total_sum_cents = round(total_sum_cents - 100)
+        cent_count += 1
+    elif total_sum_cents >= 50:
+        total_sum_cents = round(total_sum_cents - 50)
+        cent_count += 1
+    elif total_sum_cents >= 20:
+        total_sum_cents = round(total_sum_cents - 20)
+        cent_count += 1
+    elif total_sum_cents >= 10:
+        total_sum_cents = round(total_sum_cents - 10)
+        cent_count += 1
+    elif total_sum_cents >= 5:
+        total_sum_cents = round(total_sum_cents - 5)
+        cent_count += 1
+    elif total_sum_cents >= 2:
+        total_sum_cents = round(total_sum_cents - 2)
+        cent_count += 1
+    elif total_sum_cents >= 1:
+        total_sum_cents = round(total_sum_cents - 1)
+        cent_count += 1
+print(cent_count)
