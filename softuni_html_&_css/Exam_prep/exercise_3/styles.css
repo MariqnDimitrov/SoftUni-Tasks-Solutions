@@ -1,0 +1,165 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap);
+*{
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: inherit;
+    font-family: 'Lato';
+}
+header{
+    height: 60px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+}
+header img{
+    width: 100px;
+    height: 50px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.navigation ul{
+    display: flex;
+    align-items: center;
+}
+.navigation ul li{
+    list-style: none;
+    margin: 0.5em 1em;
+}
+.navigation ul li a{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.plans{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: linear-gradient(to bottom,rgba(29, 185, 84) 0%, rgba(29, 185, 84) 50%, white 50%, white 100%);
+}
+.plans img{
+    align-self: flex-start;
+    position: absolute;
+    z-index: 0;
+    width: 45%;
+    height: 650px;
+    margin-top: 1em;
+}
+.plans > h1{
+    font-family: 'Montserrat';
+    color: white;
+    margin-top: 2em;
+}
+.plan-wrapper{
+    display: flex;
+    z-index: 1;
+}
+.plan-wrapper div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 60px;
+    background-color: white;
+    height: 500px;
+    width: 520px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px 1px;
+    background: linear-gradient(to bottom,white 0%, white 88%, black 88%, black 100%);
+}
+.plan-wrapper div h1{
+    margin-top: 25px;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    color:rgb(74, 74, 74);
+}
+.student-plan ul{
+    margin: 55px 0px 30px 60px;
+}
+.student-plan ul li{
+    list-style: circle;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: medium;
+    color: rgb(100, 100, 100);
+}
+.family-plan ul{
+    margin: 15px 0px 30px 60px;
+    width: 80%;
+}
+.family-plan ul li{
+    list-style: circle;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: medium;
+    color: rgb(100, 100, 100);
+}
+.plan-wrapper div button{
+    color: white;
+    background-color: rgba(29, 185, 84);
+    padding: 15px 50px;
+    border-radius: 22px;
+    border: none;
+    font-weight: bold;
+}
+.student-plan p{
+    margin-top: 2em;
+    color: white;
+    font-size: 24px;
+}
+.family-plan p{
+    margin-top: 2.5em;
+    color: white;
+    font-size: 24px;
+}
+.dogopal-section{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 100px;
+    justify-content: space-between;
+}
+.dogopal-section img{
+    height: 250px;
+    width: 480px;
+}
+.dogopal-section h1{
+    font-family: 'Montserrat';
+    font-size: 23px;
+    font-weight: bold;
+}
+.dogopal-section ol{
+    margin-left: 1em;
+}
+.dogopal-section ol li{
+    margin-top: 30px;
+    font-size: 17px;
+}
+.difference-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features{
+    border-radius: 15px;
+    width: 1250px;
+    height: 300px;
+}
+.features li{
+    height: 45px;
+    list-style: none;
+    padding-left: 10px;
+}
+.odd{
+    background-color: rgb(189, 189, 189);
+}
+.even{
+    background-color: rgba(22, 180, 22, 0.781);
+}
+
+
