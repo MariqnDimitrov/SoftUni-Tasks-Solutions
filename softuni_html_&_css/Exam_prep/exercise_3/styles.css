@@ -42,7 +42,7 @@ header img{
     flex-direction: column;
     align-items: center;
     width: 100%;
-    background: linear-gradient(to bottom,rgba(29, 185, 84) 0%, rgba(29, 185, 84) 50%, white 50%, white 100%);
+    background: linear-gradient(to bottom,rgba(29,185,84,255) 0%, rgba(29,185,84,255) 50%, white 50%, white 100%);
 }
 .plans img{
     align-self: flex-start;
@@ -102,7 +102,7 @@ header img{
 }
 .plan-wrapper div button{
     color: white;
-    background-color: rgba(29, 185, 84);
+    background-color: rgba(29,185,84,255);
     padding: 15px 50px;
     border-radius: 22px;
     border: none;
@@ -145,21 +145,44 @@ header img{
     flex-direction: column;
     align-items: center;
 }
-.features{
-    border-radius: 15px;
-    width: 1250px;
-    height: 300px;
+.difference-section h1{
+    font-family: 'Montserrat';
+    font-size: 50px;
 }
-.features li{
+.difference-section p{
+    margin-top: 40px;
+    margin-bottom: 35px;
+    font-size: 20px;
+}
+.features table{
+    height: 300px;
+    width: 1250px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.features td{
     height: 45px;
-    list-style: none;
     padding-left: 10px;
+    font-size: 20px;
 }
 .odd{
-    background-color: rgb(189, 189, 189);
+    background-color: rgba(204,203,203,255);
 }
 .even{
-    background-color: rgba(22, 180, 22, 0.781);
+    background-color: rgba(129,216,160,255);
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    height: 100px;
+    background-color: black;
+}
+footer p{
+    font-size: 20px;
+    color: white;
 }
 
 
