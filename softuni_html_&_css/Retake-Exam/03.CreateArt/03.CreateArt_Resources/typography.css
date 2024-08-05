@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+body{
+    font-family: 'Playwrite PE' ;
+}
+nav ul li{
+    font-family: 'Roboto';
+    color: rgba(49,69,132,255);
+    font-weight: bold;
+    font-size: 21px;
+}
+nav button{
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: rgba(49,69,132,255);
+    font-size: 21px;
+}
+.site-banner-text h1{
+    font-size: 70px;
+    color: rgba(49,69,132,255);
+}
+.site-banner-text p{
+    font-size: 18px;
+    color: rgba(141,150,153,255);
+}
+.banner-buttons button{
+    font-weight: bold;
+    color: rgba(49,69,132,255);
+}
+.web-section{
+    color:rgba(49,69,132,255);
+}
+.our-company h1{
+    font-size: 50px;
+    color: rgba(49,69,132,255);
+}
+.our-company a{
+    color: rgba(49,69,132,255);
+}
+.our-company p{
+    color: rgba(49,69,132,255);
+}
+.get-in-touch input::placeholder{
+    color: white;
+    font-family: 'Playwrite PE';
+}
+footer ul li{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 20px;
+}

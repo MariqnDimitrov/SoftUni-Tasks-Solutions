@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+*{
+    padding: 0em;
+    margin: 0em;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Margarine';
+    background-color: rgba(255,240,228,255);
+}
+main{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-experience{
+    height: 630px;
+    width: 911px;
+    background-color: rgba(255,240,228,255);
+}
+.personal-info-wrapper{
+    height: 630px;
+    width: 440px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255,240,228,255);
+    padding: 20px 15px 0px 15px;
+    margin-right: 1em;
+    box-shadow: 1px 1px 15px 1px;
+}
+.personal-info-wrapper ul li{
+    list-style: none;
+    margin-top: 20px;
+}
+.personal-info{
+    border-bottom: 2px solid rgba(209,201,195,255);
+}
+.personal-info h1{
+    font-size: 30px;
+}
+.personal-info ul{
+    padding-bottom: 20px;
+}
+.personal-info ul li i{
+    margin-right: 15px;
+}
+.personal-skills ul li p{
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(41,145,230,255);
+}
+.personal-skills ul li:nth-of-type(1) p{
+    width: 370px;
+
+}
+.personal-skills ul li:nth-of-type(2) p{
+    width: 330px;
+}
+.personal-skills ul li:nth-of-type(3) p{
+    width: 305px;
+}
+.personal-skills ul li:nth-of-type(4) p{
+    width: 205px;
+}
+.work-experience{
+    box-shadow: 1px 1px 15px 1px;
+}
+.work-experience h1{
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+.work-experience-types{
+    margin: 30px 30px 0px 30px;
+}
+.work-experience div:nth-of-type(1){
+    border-bottom: 2px solid rgba(209,201,195,255);
+}
+.work-experience div:nth-of-type(2){
+    border-bottom: 2px solid rgba(209,201,195,255);
+}
+.work-experience-types p:first-of-type{
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: rgba(112,105,100,255);
+}
+.work-experience-types p:nth-of-type(2){
+    font-size: 16px;
+    padding-bottom: 20px;
+    color: rgba(41,145,230,255);
+}
+.work-experience-types p:nth-of-type(3){
+    font-size: 15px;
+    padding-bottom: 15px;
+}

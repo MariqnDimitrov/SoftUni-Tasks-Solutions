@@ -1,0 +1,33 @@
+.web-sections{
+    position: relative;
+}
+.web-sections > img:nth-of-type(1){
+    height: 370px;
+    position: absolute;
+    bottom: 30%;
+    left: -6.5%;
+}
+.web-sections > img:nth-of-type(2){
+    height: 370px;
+    position: absolute;
+    bottom: -18%;
+    right: -6.5%;
+}
+.web-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 490px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px lightgray;
+}
+.web-section img{
+    width: 270px;
+    height: 235px;
+}
+.web-section h1{
+    width: 300px;
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,50 @@
+.our-company{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 115px;
+}
+.our-company img{
+    height: 600px;
+    width: 580px;
+}
+.our-company a:nth-of-type(1){
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
+.our-company h1:nth-of-type(1){
+    text-align: center;
+    width: 480px;
+}
+.our-company > p{
+    width: 920px;
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    margin-bottom: 105px;
+}
+.get-in-touch input{
+    width: 1440px;
+    height: 65px;
+    background-color: rgba(49,69,132,255);
+    border-radius: 20px;
+    color: white;
+    margin: 0px 110px 0px 110px;
+    padding: 20px;
+    border: none;
+}
+.get-in-touch input:first-child{
+    margin-bottom: 15px;
+    margin-top: 60px;
+}
+.get-in-touch input:nth-child(2){
+    margin-bottom: 30px;
+}
+.get-in-touch input:last-child{
+    height: 180px;
+    margin-bottom: 30px;
+}
+.our-company a:hover{
+    color: rgba(255,57,70,255);
+    cursor: pointer;
+}
